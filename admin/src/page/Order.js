@@ -56,7 +56,7 @@ if(responce.data.success){
 
   useEffect(() => {
     futchallorder()
-  }, [token])
+  }, [token,futchallorder])
 
   return (
     <div>
@@ -126,3 +126,4 @@ paymentmethod}</p>
 }
 
 export default Order
+
