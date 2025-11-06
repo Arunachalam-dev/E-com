@@ -11,7 +11,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-export const backendurl = 'http://localhost:2020/'
+export const backendurl = 'https://e-com-alpha-two.vercel.app/'
 
 export const currency='$'
 const App = () => {
